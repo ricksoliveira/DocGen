@@ -14,9 +14,9 @@
   
   This app does not query a database, therefore, although the generated documents are indeed valid, they do not necessarily belong to a person nor are in a government database.
   
-  ![1](https://user-images.githubusercontent.com/68413884/97370842-b077dc80-188e-11eb-8b62-663dfdeac17e.jpeg)
-  ![2](https://user-images.githubusercontent.com/68413884/97370848-b1107300-188e-11eb-93a7-16f2786dccc7.jpeg)
-  ![3](https://user-images.githubusercontent.com/68413884/97370850-b1a90980-188e-11eb-9469-1dada4d553c2.jpeg)
+  ![1](https://user-images.githubusercontent.com/68413884/97371115-56c3e200-188f-11eb-9300-2de5070c80e7.jpeg)
+  ![2](https://user-images.githubusercontent.com/68413884/97371117-57f50f00-188f-11eb-8ec9-bc793d56cd21.jpeg)
+  ![3](https://user-images.githubusercontent.com/68413884/97371118-57f50f00-188f-11eb-916a-8144975f17b3.jpeg)
 
 - **How can I get this app?**
 
@@ -28,4 +28,4 @@
   
   **- Warning: You may have to enable the permission in your phone to allow third party applications.**
   
-  ![DocGenQR](https://user-images.githubusercontent.com/68413884/97107985-405c3180-16a9-11eb-9b9a-2173bdefdfa0.png)
+  ![DocGenQR](https://user-images.githubusercontent.com/68413884/97370974-00ef3a00-188f-11eb-8599-4ee8e3bfc44c.png)
