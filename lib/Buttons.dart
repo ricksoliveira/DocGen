@@ -16,8 +16,8 @@ class Buttons{
           color: Colors.white70,
           borderRadius: BorderRadius.circular(10.0),
         ),
-        height: 100.0,
-        width: 100.0,
+        height: 80.0,
+        width: 80.0,
         child: Center(
           child: Text(title,
             style: TextStyle(
@@ -99,6 +99,32 @@ class Buttons{
         child: Icon(Icons.content_copy,
           size: 35.0,
           color: Colors.white70,
+        ),
+      ),
+    );
+  }
+
+  Widget allThreeButton(BuildContext context, String route){
+    return FlatButton(
+      onPressed: (){
+        Navigator.pushNamed(context, route);
+      },
+      child: Container(
+        padding: EdgeInsets.all(5.0),
+        decoration: BoxDecoration(
+          color: Colors.white70,
+          borderRadius: BorderRadius.circular(10.0),
+        ),
+        height: 70.0,
+        width: 220.0,
+        child: Center(
+          child: Text('GERAR TODOS',
+            style: TextStyle(
+              color: Colors.deepPurple[900],
+              fontSize: 24.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
       ),
     );

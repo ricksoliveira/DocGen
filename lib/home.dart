@@ -62,22 +62,17 @@ class _HomeState extends State<Home> {
                       f.spacingHorizontal(20.0),
                     ],
                   ),
-                  f.spacingVertical(20.0),
+                  f.spacingVertical(40.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       b.docButton('CPF', context, '/cpf'),
-                      f.spacingHorizontal(10.0),
-                      b.docButton('CNPJ', context, '/cnpj')
-                    ],
-                  ),
-                  f.spacingVertical(30.0),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
+                      b.docButton('CNPJ', context, '/cnpj'),
                       b.docButton('RG', context, '/rg'),
                     ],
                   ),
+                  f.spacingVertical(40.0),
+                  b.allThreeButton(context, '/alldocs'),
                   f.spacingVertical(20.0),
                   // FlatButton(
                   //   onPressed: (){
