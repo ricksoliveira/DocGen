@@ -14,7 +14,9 @@
   
   This app does not query a database, therefore, although the generated documents are indeed valid, they do not necessarily belong to a person nor are in a government database.
   
-![doc1](https://user-images.githubusercontent.com/68413884/97107697-aba50400-16a7-11eb-9ac7-f2a6c6ed9758.jpg) ![doc2](https://user-images.githubusercontent.com/68413884/97107946-0428d100-16a9-11eb-86e1-3046e47535d1.jpg) ![doc3](https://user-images.githubusercontent.com/68413884/97107698-ac3d9a80-16a7-11eb-921d-6f0587de5da6.jpg)
+  ![1](https://user-images.githubusercontent.com/68413884/97370842-b077dc80-188e-11eb-8b62-663dfdeac17e.jpeg)
+  ![2](https://user-images.githubusercontent.com/68413884/97370848-b1107300-188e-11eb-93a7-16f2786dccc7.jpeg)
+  ![3](https://user-images.githubusercontent.com/68413884/97370850-b1a90980-188e-11eb-9469-1dada4d553c2.jpeg)
 
 - **How can I get this app?**
 
