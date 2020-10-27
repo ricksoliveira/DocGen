@@ -72,13 +72,34 @@ class Buttons{
         color: Colors.white70,
         borderRadius: BorderRadius.circular(10.0),
       ),
-      height: 80.0,
-      width: 170.0,
+      height: 60.0,
+      width: 150.0,
       child: Center(
         child: Text('GERAR',
           style: TextStyle(
             color: Colors.deepPurple[900],
-            fontSize: 26.0,
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1.0,
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget generateXButton(String num){
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.white70,
+        borderRadius: BorderRadius.circular(5.0),
+      ),
+      height: 30.0,
+      width: 150.0,
+      child: Center(
+        child: Text('GERAR  $num',
+          style: TextStyle(
+            color: Colors.deepPurple[900],
+            fontSize: 18.0,
             fontWeight: FontWeight.bold,
             letterSpacing: 1.0,
           ),

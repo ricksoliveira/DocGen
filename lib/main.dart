@@ -5,6 +5,7 @@ import 'cpf.dart';
 import 'rg.dart';
 import 'info.dart';
 import 'alldocs.dart';
+import 'generated.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/cpf': (context) => Cpf(),
         '/rg': (context) => Rg(),
         '/alldocs': (context) => Alldocs(),
+        '/generated': (context) => Generated(),
         //ADD more routes here,
         //ADD more routes here,
         //...

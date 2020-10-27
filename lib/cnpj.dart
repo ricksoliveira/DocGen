@@ -1,5 +1,6 @@
 import 'package:document_generator/Buttons.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'CNPJGenerator.dart';
 import 'Formats.dart';
 import 'Buttons.dart';
@@ -40,15 +41,13 @@ class _CnpjState extends State<Cnpj> {
                   b.backButton(context),
                   f.spacingVertical(25.0),
                   f.spacingDivider(0.0, 300.0),
-                  f.spacingVertical(40.0),
                   Container(
                     margin: EdgeInsets.all(30.0),
                     child: Text(cnpj,
                       style: f.titleStyle(),
                     ),
                   ),
-                  f.spacingVertical(10.0),
-                  f.spacingDivider(70.0, 300.0),
+                  f.spacingDivider(0.0, 300.0),
                   f.spacingVertical(20.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -64,6 +63,92 @@ class _CnpjState extends State<Cnpj> {
                       ),
                       b.clipboardButton(cnpj),
                     ],
+                  ),
+                  f.spacingVertical(10.0),
+                  FlatButton(
+                    onPressed: (){
+
+                      cnpj = 'CNPJ:\n';
+                      for(int i=0; i<5;i++){
+                        CNPJGenerator CNPJgen = CNPJGenerator();
+                        cnpj += CNPJgen.genCnpj() + '\n';
+                      }
+                      Clipboard.setData(ClipboardData(text: cnpj));
+                      cnpj = 'Clique no botão GERAR';
+                      Navigator.pushNamed(context, '/generated');
+
+                    },
+                    child: Container(
+                      child: b.generateXButton('5'),
+                    ),
+                  ),
+                  FlatButton(
+                    onPressed: (){
+
+                      cnpj = 'CNPJ:\n';
+                      for(int i=0; i<10;i++){
+                        CNPJGenerator CNPJgen = CNPJGenerator();
+                        cnpj += CNPJgen.genCnpj() + '\n';
+                      }
+                      Clipboard.setData(ClipboardData(text: cnpj));
+                      cnpj = 'Clique no botão GERAR';
+                      Navigator.pushNamed(context, '/generated');
+
+                    },
+                    child: Container(
+                      child: b.generateXButton('10'),
+                    ),
+                  ),
+                  FlatButton(
+                    onPressed: (){
+
+                      cnpj = 'CNPJ:\n';
+                      for(int i=0; i<20;i++){
+                        CNPJGenerator CNPJgen = CNPJGenerator();
+                        cnpj += CNPJgen.genCnpj() + '\n';
+                      }
+                      Clipboard.setData(ClipboardData(text: cnpj));
+                      cnpj = 'Clique no botão GERAR';
+                      Navigator.pushNamed(context, '/generated');
+
+                    },
+                    child: Container(
+                      child: b.generateXButton('20'),
+                    ),
+                  ),
+                  FlatButton(
+                    onPressed: (){
+
+                      cnpj = 'CNPJ:\n';
+                      for(int i=0; i<50;i++){
+                        CNPJGenerator CNPJgen = CNPJGenerator();
+                        cnpj += CNPJgen.genCnpj() + '\n';
+                      }
+                      Clipboard.setData(ClipboardData(text: cnpj));
+                      cnpj = 'Clique no botão GERAR';
+                      Navigator.pushNamed(context, '/generated');
+
+                    },
+                    child: Container(
+                      child: b.generateXButton('50'),
+                    ),
+                  ),
+                  FlatButton(
+                    onPressed: (){
+
+                      cnpj = 'CNPJ:\n';
+                      for(int i=0; i<100;i++){
+                        CNPJGenerator CNPJgen = CNPJGenerator();
+                        cnpj += CNPJgen.genCnpj() + '\n';
+                      }
+                      Clipboard.setData(ClipboardData(text: cnpj));
+                      cnpj = 'Clique no botão GERAR';
+                      Navigator.pushNamed(context, '/generated');
+
+                    },
+                    child: Container(
+                      child: b.generateXButton('100'),
+                    ),
                   ),
                 ],
               ),
